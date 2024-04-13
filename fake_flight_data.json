@@ -1,0 +1,54 @@
+{
+    "confirmation_number": "7ddfd664-a7e6-442c-a9e1-7843f7a0ed00",
+    "flight_number": "DL814",
+    "airline_code": "DL",
+    "flight_date": "2023-06-25",
+    "flight_offers": [
+        {
+            "id": "e03ff4e7-e11f-4bb2-a824-d1ae46d9522f",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "oneWay": true,
+            "lastTicketingDate": "2023-06-24",
+            "numberOfBookableSeats": 2,
+            "itineraries": [
+                {
+                    "duration": "PT13H37M",
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "LHR",
+                                "terminal": "2",
+                                "at": "2023-06-25T12:00:00"
+                            },
+                            "arrival": {
+                                "iataCode": "DXB",
+                                "terminal": "4",
+                                "at": "2023-06-25T18:00:00"
+                            },
+                            "carrierCode": "DL",
+                            "number": "DL814",
+                            "aircraft": {
+                                "code": "773"
+                            },
+                            "operating": {
+                                "carrierCode": "DL"
+                            },
+                            "duration": "PT10H",
+                            "id": "f7a5111f-cb51-4638-8548-d84a1ca04fd6",
+                            "numberOfStops": 1,
+                            "blacklistedInEU": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "price_details": {
+        "total": "264.00",
+        "currency": "USD"
+    },
+    "status": "Delayed",
+    "cancellation_reason": ""
+}
